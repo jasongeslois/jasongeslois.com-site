@@ -72,9 +72,9 @@ interests = [
   link = "https://twitter.com/jasongeslois"
 
 [[social]]
-  icon = "google-scholar"
-  icon_pack = "ai"
-  link = ""
+  icon = "linkedin"
+  icon_pack = "fab"
+  link = "https://www.linkedin.com/in/jasongeslois/"
 
 [[social]]
   icon = "github"
@@ -90,4 +90,4 @@ interests = [
 
 +++
 
-Hello, and welcome to my little corner of the web. I’m an epidemiologist by day and I enjoy solving problems, learning, and discovering all that our world has to offer. I’ve been involved in public health in different capacities since 2011 and am currently interested in using data science to better predict disease outbreaks, exploring various health and disease models, as well as researching other public health problems. I’m still making updates to this site, and will post some projects I’ve been working on soon, but feel free to reach out and say hello.
+Hello, and welcome to my little corner of the web. I am an epidemiologist by day and I enjoy solving problems, learning, and discovering all that our world has to offer. I’ve been involved in public health in different capacities since 2011 and am currently interested in using data science to better predict disease outbreaks, exploring various health and disease models, as well as researching other public health problems. I’m still making updates to this site, and will post some projects I’ve been working on soon, but feel free to reach out and say hello.
