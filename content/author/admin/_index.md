@@ -23,7 +23,7 @@ interests = [
   "Epidemiology",
   "Infection Prevention",
   "Data Science",
-  "Spatial Analysis',
+  "Spatial Analysis",
   "R Programming, ArcGIS, & Tableau"
 ]
 
