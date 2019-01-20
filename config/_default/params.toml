@@ -59,6 +59,7 @@ privacy_pack = false
 
 # Get user avatars from Gravatar.com? (true/false)
 gravatar = false
+avatar = "Jason pic.jpg"
 
 # Contact Widget setup
   email = "test@example.org"
