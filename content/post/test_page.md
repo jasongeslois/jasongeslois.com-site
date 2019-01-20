@@ -2,8 +2,6 @@
 title = "Test Page" 
 date = "2019-01-20" 
 +++
-
-
 Untitled
 ================
 
@@ -33,6 +31,10 @@ Including Plots
 ---------------
 
 You can also embed plots, for example:
+
+``` r
+plot(pressure)
+```
 
 ![](test_page_files/figure-markdown_github/pressure-1.png)
 
