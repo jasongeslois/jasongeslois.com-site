@@ -22,21 +22,23 @@ weight = 7
 # * ai - academic icons (see https://jpswalsh.github.io/academicons/)
 
 [[feature]]
+  icon = "bug"
+  icon_pack = "fas"
+  name = "Epidemiology & Infection Prevention"
+
+[[feature]]
   icon = "r-project"
   icon_pack = "fab"
   name = "R"
-  description = "90%"
   
+[[feature]]
+  icon = "globe-africa"
+  icon_pack = "fas"
+  name = "ArcGIS & QGIS"
+
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
-  name = "Statistics"
-  description = "100%"  
-  
-[[feature]]
-  icon = "camera-retro"
-  icon_pack = "fas"
-  name = "Photography"
-  description = "10%"
+  name = "Tableau" 
 
 +++
