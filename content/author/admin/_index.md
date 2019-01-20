@@ -17,6 +17,7 @@ bio = "I'm an epidemiologist with interests in infection prevention, data scienc
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = ""
+avatar = "Jason pic.jpg"
 
 # List (academic) interests or hobbies
 interests = [
