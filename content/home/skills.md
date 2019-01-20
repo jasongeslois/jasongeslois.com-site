@@ -24,7 +24,7 @@ weight = 7
 [[feature]]
   icon = "bug"
   icon_pack = "fas"
-  name = "Epidemiology & Infection Prevention"
+  name = "Epidemiology"
 
 [[feature]]
   icon = "r-project"
