@@ -6,11 +6,11 @@ name = "Jason Geslois"
 superuser = true
 
 # Role/position
-role = "Epidemiologist"
+role = "MPH, MCHES"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "", url = "" } ]
+organizations = [ { name = "Epidemiologist", url = "" } ]
 
 # Short bio (displayed in user profile at end of posts)
 bio = "I'm an epidemiologist with interests in infection prevention, data science, research, R programming, GIS, and spatial analysis."
