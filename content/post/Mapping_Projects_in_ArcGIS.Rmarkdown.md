@@ -1,7 +1,10 @@
-Mapping Public Health Projects
++++
+title = "Mapping Public Health Projects"
+author = "Jason Geslois"
+date = "2019-01-21"
++++
 ================
-Jason Geslois
-2019-01-21
+
 
 Location information is very useful in learning different qualities and aspects of the world. I think I once heard a quote that over 80% of all data in the world is related to location data. When you think about it, it makes sense because the data is tied to being somewhere in the physical space. It is a fascinating concept.
 
