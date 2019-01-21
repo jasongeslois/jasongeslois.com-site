@@ -18,17 +18,14 @@ To get the waterways data, I found a shapefile of some [here](https://mapcruzin.
 
 So now utilizing ArcGIS, with an initial base map of Europe, I added the data values with the latest rates from 2015 and added the water bodies shapefile across the continent. This is an early start, but I plan on doing more work and spatial calculations on this later as well as examining this for areas in Texas, where I currently work.
 
-#![Legionella Across Europe](https://github.com/jasongeslois/jasongeslois.com-site/blob/master/content/post/legionella%20update.jpg)
 {{< figure library="1" src="legionellaupdate.jpg" title="Legionella Across Europe" >}}
 
 So looking at this map, we cannot make any assumptions yet for a hypothesis on if higher rates of legionella infection could be associated to the proximity of or in relation to higher concentration of water bodies between countries. We will need to narrow down our water body layers as well as examine other factors before making a determination. Other factors to consider could include population density between countries (see below),
 
-#![Population Density Across Europe](https://github.com/jasongeslois/jasongeslois.com-site/blob/master/content/post/populationdensity.jpg)
 {{< figure library="1" src="populationdensity.jpg" title="Population Density Across Europe" >}}
 
 as well as differentiating between fresh water sources (where legionella is known to grow), water temperatures for their growth, meteorological factors for potential surface water distribution, etc. Nevertheless this article is not going to go into all of that detail, but it is something I will be researching and illustrates what I mean about how useful GIS is to public health. Mapping out different variables is a great way to show important public health topics which can be effective to not only bring about public health intervention programs, but also in acquiring funding, and advancing science overall. One other example I will show is a project I worked on in one of my classes for mapping the location of California power plants in relation to nitrogen oxide (NOx) monitors and their mean concentrations overlaid with Asthma emergency room visits in 2015.
 
-#![California Map](https://github.com/jasongeslois/jasongeslois.com-site/blob/master/content/post/cali%20update.jpg)
 {{< figure library="1" src="caliupdate.jpg" title="California Map" >}}
 
 When generating maps like this, one can start examining and visualizing the relationships that your data may contain. Again, there is always more analysis types you can do to further show what you are researching, but maps are a great way to show the extent of how public health can visualize the health factors in a local community and around the world. I am always interested to see others work in the field. I did not go over it in this article, but check out some of my other articles using GIS within the R program which has some powerful data tools and packages to explore.
