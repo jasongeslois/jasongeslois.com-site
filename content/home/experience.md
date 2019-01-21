@@ -19,27 +19,42 @@ date_format = "January 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
+  title = "Epidemiologist"
+  company = "Northeast Texas Public Health District (NET Health)"
   company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  location = "Texas"
+  date_start = "2016-03-07"
   date_end = ""
   description = """
   Responsibilities include:
   
-  * Analysing
-  * Modelling
-  * Deploying
+  * Disease Surveillance 
+  * Infection Control & Prevention
+  * Outbreak Response
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
+  title = "Special Projects Coordinator"
+  company = "MLK Health Center"
   company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  location = "Louisiana"
+  date_start = "2010-12-01"
+  date_end = "2014-08-31"
+  description = """
+  Responsibilities include:
+  
+  * Volunteer Management 
+  * Research & Data Analysis for Grants
+  * Community Health Education & Outreach
+  """
+
+[[experience]]
+  title = "Adjunct Instructor"
+  company = "Louisiana State University Shreveport"
+  company_url = ""
+  location = "Louisiana"
+  date_start = "2012-08-01"
+  date_end = "2013-12-31"
+  description = """Taught both in-class and 100% online classes in Epidemiology to undergraduate students."""
 
 +++
