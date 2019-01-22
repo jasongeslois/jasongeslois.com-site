@@ -6,3 +6,9 @@
   HUGO_VERSION = "0.53"
   HUGO_ENV = "production"
   HUGO_ENABLEGITINFO = "true"
+
+[[redirects]]
+  from = "/https://elastic-goldwasser-0d5d66.netlify.com/"
+  to = "/www.jasongeslois.com/"
+  force = true
+  
