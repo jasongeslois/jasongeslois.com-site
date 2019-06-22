@@ -26,11 +26,11 @@ date_format = "January 2006"
   date_start = "2016-03-07"
   date_end = ""
   description = """
-  Responsibilities include:
+  Responsibilities Include:
   
   * Disease Surveillance 
   * Infection Control & Prevention
-  * Outbreak Response
+  * Outbreak Response & Preparedness Activities
   """
 
 [[experience]]
@@ -41,7 +41,7 @@ date_format = "January 2006"
   date_start = "2010-12-01"
   date_end = "2014-08-31"
   description = """
-  Responsibilities include:
+  Responsibilities Included:
   
   * Volunteer Management 
   * Research & Data Analysis for Grants
@@ -55,6 +55,10 @@ date_format = "January 2006"
   location = "Louisiana"
   date_start = "2012-08-01"
   date_end = "2013-12-31"
-  description = """Taught both in-class and 100% online classes in Epidemiology to undergraduate students."""
+  description = """
+  Responsibilities Included: 
+  
+  * Instructed in classroom and 100% online undergraduate Epidemiology courses.
+  """
 
 +++
