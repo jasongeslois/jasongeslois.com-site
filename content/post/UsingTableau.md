@@ -9,15 +9,15 @@ Tableau is just another tool that can be used in an epidemiologist's toolbox to 
 This is what setting up diseases in a heat map format in Tableau can look like. 
 
 ![Disease Heat Map](https://github.com/jasongeslois/jasongeslois.com-site/blob/master/content/post/tableauheatmap.jpg)
-{{< figure src="tableauheatmap.jpg" title="" >}}
+{{< figure src="tableauheatmap.jpg" title="" lightbox="true" >}}
 
 Here is an example using the previous post's data mapping legionella in Europe with this particular display. 
 
 ![Tableau Map](https://github.com/jasongeslois/jasongeslois.com-site/blob/master/content/post/tableaumap.jpg)
-{{< figure src="tableaumap.jpg" title="" >}}
+{{< figure src="tableaumap.jpg" title="" lightbox="true" >}}
 
 Many factors can go into looking or accurately predicting a disease forecast, but this was just one way I was exploring as a potential visual concept. 
 
 ![Disease Forecast](https://github.com/jasongeslois/jasongeslois.com-site/blob/master/content/post/tableauforecast.jpg)
-{{< figure src="tableauforecast.jpg" title="" >}}
+{{< figure src="tableauforecast.jpg" title="" lightbox="true" >}}
 
