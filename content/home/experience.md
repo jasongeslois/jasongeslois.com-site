@@ -49,7 +49,7 @@ date_format = "January 2006"
   """
 
 [[experience]]
-  title = "Adjunct Instructor"
+  title = "Adjunct Instructor-Epidemiology"
   company = "Louisiana State University Shreveport"
   company_url = ""
   location = "Louisiana"
