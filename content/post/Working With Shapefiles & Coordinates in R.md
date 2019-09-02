@@ -17,6 +17,9 @@ R is a great program to do a variety of data science projects, solve statistical
 library(maps)
 map('county', 'texas', fill = TRUE, col = palette())
 ```
+![Texas Counties](https://github.com/jasongeslois/jasongeslois.com-site/blob/master/content/post/palettetexas.jpg) 
+{{< figure library="1" src="palettetexas.jpg" title="" lightbox="true" >}}
+
 
 This looks pretty good and is a very simple way to quickly get a map made. Another way you may need to see it would be to look at it interactively and use something like a leaflet map. To get that, let's import some data and make some shapefiles to do that with. 
 
