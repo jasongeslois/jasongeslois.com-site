@@ -5,9 +5,6 @@ author = "Jason Geslois, MAS, MPH, MCHES"
 date = "2019-09-02"
 +++
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 ## Mapping Counties
 
@@ -17,7 +14,7 @@ R is a great program to do a variety of data science projects, solve statistical
 library(maps)
 map('county', 'texas', fill = TRUE, col = palette())
 ```
-![Texas Counties](https://github.com/jasongeslois/jasongeslois.com-site/blob/master/content/post/palettetexas.jpg) 
+
 {{< figure library="1" src="palettetexas.jpg" title="" lightbox="true" >}}
 
 
