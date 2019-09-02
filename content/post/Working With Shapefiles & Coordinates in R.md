@@ -42,6 +42,8 @@ You can do this for most of the world, but in this example we're using the US. A
 texas <- subset(us,NAME_1=="Texas")
 plot(texas)
 ```
+{{< figure library="1" src="countytexas.jpg" title="" lightbox="true" >}}
+
 
 Now for the district map. 
 
@@ -49,6 +51,8 @@ Now for the district map.
 mapdist <- subset(texas, NAME_2=="Smith" | NAME_2=="Anderson" | NAME_2=="Wood" | NAME_2=="Van Zandt" |NAME_2=="Rains" | NAME_2=="Gregg" | NAME_2=="Henderson")
 plot(mapdist, col='pink')
 ```
+{{< figure library="1" src="pinkdistrict.jpg" title="" lightbox="true" >}}
+
 
 If you want to see them together on the same map, we can use the package `ggplot2` inside the `tidyverse` package to make a nice view of where these counties are in Texas. 
 
@@ -62,20 +66,18 @@ tx_base <- ggplot(data = tx_county, mapping = aes(x = long, y = lat, group = gro
 tx_base + theme_void() +
   geom_polygon(data = texas, fill = NA, color = NA) +
   geom_polygon(data = mapdist, color = "black", fill = "pink")  # this puts the state border back on top
-
 ```
-
+{{< figure library="1" src="txdistrict.jpg" title="" lightbox="true" >}}
 
 Now doing this, let's use the `Leaflet` package to make an interactive map. In this package, it is presented very aesthetically. 
-
 
 ```{r}
 library(leaflet)
 leaflet(mapdist) %>%
     addPolygons()%>%
-    addTiles()
-    
+    addTiles() 
 ```
+
 
 
 If you wanted to save either of these areas or whatever selection you're working with, you could do so by saving them as a shapefile to export out to use in another tool like ArcGIS using the below code. This will save the files in an temporary directory in your current working directory. I am using the `overwrite_layer = TRUE` command here to test it as I save it, you can remove it if you need. 
@@ -87,9 +89,7 @@ writeOGR(obj=texas, dsn="tempdir", layer="texas", driver="ESRI Shapefile", overw
 
 #just the counties of your selection, in my case "the district" that we created above
 writeOGR(obj=mapdist, dsn="tempdir", layer="mapdist", driver="ESRI Shapefile", overwrite_layer = TRUE) 
-
 ```
-
 
 For future use, if you want to read the shapefiles back into R, you can use the following code: 
 
@@ -97,7 +97,6 @@ For future use, if you want to read the shapefiles back into R, you can use the 
 library(rgdal)
 s <- readOGR(dsn=path.expand("mapdist.shp"), layer="mapdist")
 ```
-
 
 ## Plotting Random Points
 
@@ -108,12 +107,12 @@ library(raster)
 library(GISTools)
 library(rgdal)
 library(sp)
-```
 
-```{r}
 #n is the number of points to create
 plot(s) ; points(spsample(s, n=100, type='random'), col='red', pch=3, cex=0.5)
 ```
+
+{{< figure library="1" src="pts1.jpg" title="" lightbox="true" >}}
 
 These points could be reverse geocoded to get their exact coordinates as well as their approximate nearest address if we wanted to go that route. There's a few ways to do that, however I want to skip this step and instead produce some random coordinates within this area that we could use. 
 
@@ -146,7 +145,7 @@ pts100 <- data.frame(ch_position(n = 100, bbox = c(minx, miny, maxx, maxy)))
 head(pts100)
 ```
 
-Well that's not good. When re run this, it turned out that they are stretched out in rows and that just isn't helpful to what we need. Let's fix this to make 2 nice columns. 
+Well that's not good. When we run this, it turned out that they are stretched out in rows and that just isn't helpful to what we need. Let's fix this to make 2 nice columns. 
 
 ```{r}
 #transposes the data, basically switching the rows and columns; the t() transposes, while the as.data.frame turns it into a data frame to override an error
@@ -168,7 +167,7 @@ Now to plot and test our results.
 ```{r}
 plot(s) ; points(clean, col='red', pch=3, cex=0.5)
 ```
-
+{{< figure library="1" src="pts2.jpg" title="" lightbox="true" >}}
 
 Something didn't work right. Looks like our boundary box encompasses the whole region inside and outside. So to fix this we have to convert our regular data frame with our lat/long points to a spatial data frame object with projection. Further explanation and help can be found here. 
 
@@ -198,6 +197,8 @@ clean_subset <- clean[s, ]
 plot(s); points(clean_subset, col='red', pch=3, cex=0.5)
 ```
 
+{{< figure library="1" src="pts3.jpg" title="" lightbox="true" >}}
+
 That did the trick. The last bit on this post will be a little bit of spatial statistics to look at the spatial intensity of the coordinates we have now. 
 
 ## Spatial Intensity
@@ -216,12 +217,10 @@ library(maps)
 library(rgdal)
 ```
 
-
 The spatstat package is used here to do the process. There is quite a lot of features in this package so definitely read the vignette if you get lost. First we need to convert our point data to a ppp object which is how the packages handles them. 
 
 ```{r}
 pppclean <- as.ppp(clean_subset)
-
 ```
 
 Now we need to convert our shapefile to an owin object, another file type it uses.
@@ -236,15 +235,15 @@ Finally we bind the owin object to our ppp object in what's called a Window obje
 Window(pppclean) <- sowin
 ```
 
-
 Now we'll run the kernel density function. Each point is represented in an area of square meters. You can adjust the bandwidth for various purposes with the `sigma=` variable. Using the `edge=` corrects for edge affects that sometimes occur around the border areas. 
-
 
 ```{r}
 K2 <- density(pppclean, edge=TRUE, sigma=0.07) # Using a low bandwidth
 plot(K2, main='Kernel Density Plot', las=1)
 contour(K2, add=TRUE)
 ```
+
+{{< figure library="1" src="kerneldistrict.jpg" title="" lightbox="true" >}}
 
 There is a lot of math and much more detailed aspects to how one of these is created, but I just wanted to show how this can be just one useful tool in public health. This wraps up this particular post. 
 
