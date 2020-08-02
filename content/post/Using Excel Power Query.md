@@ -9,7 +9,7 @@ In this post, I wanted to share a few helpful tools that have not only been usef
 
 ![Example Data](https://github.com/jasongeslois/jasongeslois.com-site/blob/master/content/post/query01.jpg) 
 {{< figure library="1" src="query01.jpg" title="" lightbox="true" >}}
-{{< figure library="1" src="countytexas.jpg" title="" lightbox="true" >}}
+
 So, for this post, I want to complete three tasks. 
 -	We will clean a column of data by converting it to UPPER CASE as well as trimming any white space before or after it.
   *	Why is this useful? for various analyses as well as finding duplicates in different entries where there may be errors. Ex. You have 3 John Smith entries by each name with each looking like John, JOHN, john_. These may be hard to find if your dataset is very large. 
