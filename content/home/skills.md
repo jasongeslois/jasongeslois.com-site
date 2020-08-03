@@ -42,7 +42,7 @@ weight = 7
   name = "Excel" 
 
 [[feature]]
-  icon = "chart-line"
+  icon = "chart-bar"
   icon_pack = "fas"
   name = "Tableau" 
 
