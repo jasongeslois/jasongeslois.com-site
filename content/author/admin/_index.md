@@ -24,8 +24,8 @@ interests = [
   "Epidemiology",
   "Infection Prevention",
   "Data Science",
-  "Spatial Analysis",
-  "R Programming, ArcGIS, & Tableau"
+  "GIS & Spatial Analysis",
+  "R Programming"
 ]
 
 # List qualifications (such as academic degrees)
