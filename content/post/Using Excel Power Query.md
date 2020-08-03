@@ -23,6 +23,7 @@ So to start, lets load in our fake disease data file, but we do not want to open
 {{< figure library="1" src="query02.jpg" title="" lightbox="true" >}}
 
 ##Cleaning the Column of Data
+
 Once the file is loaded, the Power Query Editor window opens. From here, click the Transform tab at the top and you can see the Format button where both our Upper-case tool and Trim tools are along with a few other handy ones. Select the top of the column header that we want to begin to clean and click each one of these tools. 
 
 ![Tools](https://github.com/jasongeslois/jasongeslois.com-site/blob/master/content/post/query03.jpg) 
@@ -34,6 +35,7 @@ If you made a mistake or need to undo, over on the right-hand side is the query 
 {{< figure library="1" src="query04.jpg" title="" lightbox="true" >}}
 
 ##Using Conditional Columns
+
 In this example what we want to do is, create a conditional column to label your data based on specific conditions you may have. For example lets say you have to do certain quality assurance checks on each of the case reports of diseases each year and you want to label it to be able to know how many more you have left to process after you have done your qualitative reviews. So, in this example, you have finished with Pertussis and you want to label each one as being “Processed” and all the other conditions as “Incomplete.”  
 
 ![Labels](https://github.com/jasongeslois/jasongeslois.com-site/blob/master/content/post/query05.jpg) 
@@ -50,6 +52,7 @@ You can make this as simple or as complex as you need by adding clauses and many
 {{< figure library="1" src="query07.jpg" title="" lightbox="true" >}}
 
 ##Filtering for Today’s Date
+
 Our last example will be to look at only keeping today’s dated entries. So, I am going to look at the “DateReported” column I have with the date values, and I am going to click the arrow to the right, then Date Filters, Day, and then “Today.” This again will only load the current day’s values. You can see there is a variety of other date and range options you can play with. But in this example, if tomorrow, you were to run the query again, it would repopulate your entries for tomorrow’s date as it would be the new “Today.”  
 
 ![Dates](https://github.com/jasongeslois/jasongeslois.com-site/blob/master/content/post/query08.jpg) 
