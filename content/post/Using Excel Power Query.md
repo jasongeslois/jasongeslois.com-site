@@ -11,12 +11,14 @@ In this post, I wanted to share a few helpful tools that have not only been usef
 {{< figure library="1" src="query01.jpg" title="" lightbox="true" >}}
 
 So, for this post, I want to complete three tasks. 
--	We will clean a column of data by converting it to UPPER CASE as well as trimming any white space before or after it.
-  *	Why is this useful? for various analyses as well as finding duplicates in different entries where there may be errors. Ex. You have 3 John Smith entries by each name with each looking like John, JOHN, john_. These may be hard to find if your dataset is very large. 
--	We will add a new conditional column based on values in another column.
-  *	Why is this useful? Can create descriptive categorical data for grouping or associating different variables to understand your data better.
--	And finally, we will filter to only view new entries of data showing the current day’s date.
-  *	Why is this useful? Suppose you are entering a lot of new data each day from multiple sources or multiple people, and you need to share certain elements of this, and only want to view the daily new entries, this will populate each time you refresh for the current day. 
+
+1.	We will clean a column of data by converting it to UPPER CASE as well as trimming any white space before or after it.
+    *	Why is this useful? for various analyses as well as finding duplicates in different entries where there may be errors. Ex. You have 3 John Smith entries by each name with each looking like John, JOHN, john_. These may be hard to find if your dataset is very large. 
+2.	We will add a new conditional column based on values in another column.
+    *	Why is this useful? Can create descriptive categorical data for grouping or associating different variables to understand your data better.
+3.	And finally, we will filter to only view new entries of data showing the current day’s date.
+    *	Why is this useful? Suppose you are entering a lot of new data each day from multiple sources or multiple people, and you need to share certain elements of this, and only want to view the daily new entries, this will populate each time you refresh for the current day. 
+    
 So to start, lets load in our fake disease data file, but we do not want to open it the usual way, we want to use Power Query to bring it in and then be able to work with it to do these things. So, let us go to the data ribbon, and click “Get Data” and as our file is in another Excel workbook, we will click that. As you can see, Excel can import a large variety of data types from other data sources. 
 
 ![Data Types](https://github.com/jasongeslois/jasongeslois.com-site/blob/master/content/post/query02.jpg) 
