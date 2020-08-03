@@ -28,7 +28,7 @@ date_format = "January 2006"
   description = """
   Responsibilities Include:
   
-  * Disease Surveillance 
+  * Disease Surveillance & Data Analysis
   * Infection Control & Prevention
   * Outbreak Response & Preparedness Activities
   """
@@ -58,7 +58,7 @@ date_format = "January 2006"
   description = """
   Responsibilities Included: 
   
-  * Instructed in classroom and 100% online undergraduate Epidemiology courses.
+  * Instructed in-person and 100% online undergraduate Epidemiology courses.
   """
 
 +++
