@@ -37,6 +37,11 @@ weight = 7
   name = "ArcGIS & QGIS"
 
 [[feature]]
+  icon = "file-excel"
+  icon_pack = "fas"
+  name = "Excel" 
+
+[[feature]]
   icon = "chart-line"
   icon_pack = "fas"
   name = "Tableau" 
