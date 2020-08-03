@@ -1,5 +1,5 @@
 +++
-title = "Mapping Public Health Projects"
+title = "Mapping Public Health Projects in ArcGIS"
 author = "Jason Geslois"
 date = "2019-01-21"
 +++
@@ -32,3 +32,5 @@ as well as differentiating between fresh water sources (where legionella is know
 {{< figure library="1" src="caliupdate.jpg" title="" >}}
 
 When generating maps like this, one can start examining and visualizing the relationships that your data may contain. Again, there is always more analysis types you can do to further show what you are researching, but maps are a great way to show the extent of how public health can visualize the health factors in a local community and around the world. I am always interested to see others work in the field. I did not go over it in this article, but check out some of my other articles using GIS within the R program which has some powerful data tools and packages to explore.
+
+Update: Aug 08, 2020 - added "in ArcGIS" to title. 
