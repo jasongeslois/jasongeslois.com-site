@@ -18,13 +18,27 @@ date_format = "January 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
+
+[[experience]]
+  title = "Advanced Epidemiologist"
+  company = "Kansas Department of Health & Environment"
+  company_url = ""
+  location = "Kansas"
+  date_start = "2021-08-23"
+  date_end = ""
+  description = """
+  Responsibilities Include:
+  
+  * Immunization and Vaccine Data Analysis
+  """
+
 [[experience]]
   title = "Epidemiologist"
   company = "Northeast Texas Public Health District (NET Health)"
   company_url = ""
   location = "Texas"
   date_start = "2016-03-07"
-  date_end = ""
+  date_end = "2021-08-13"
   description = """
   Responsibilities Include:
   
