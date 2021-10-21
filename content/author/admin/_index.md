@@ -63,16 +63,6 @@ interests = [
 #   Full list: https://jpswalsh.github.io/academicons/
 
 [[social]]
-  icon = "envelope"
-  icon_pack = "fas"
-  link = "mailto:jasongeslois@outlook.com"  # For a direct email link, use "mailto:test@example.org". Use "#contact" for the contact form. 
-
-[[social]]
-  icon = "twitter"
-  icon_pack = "fab"
-  link = "https://twitter.com/jasongeslois"
-
-[[social]]
   icon = "linkedin"
   icon_pack = "fab"
   link = "https://www.linkedin.com/in/jasongeslois/"
