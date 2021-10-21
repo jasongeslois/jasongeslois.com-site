@@ -29,7 +29,7 @@ date_format = "January 2006"
   description = """
   Responsibilities Include:
   
-  * Immunization and Vaccine Data Analysis
+  * Data Analysis on Immunizations and Vaccines
   """
 
 [[experience]]
