@@ -45,10 +45,10 @@ interests = [
   institution = "LSUS / LSU Health Science Center Shreveport"
   year = 2011
 
-[[education.courses]]
-  course = "BS in Psychology"
-  institution = "Louisiana State University Shreveport (LSUS)"
-  year = 2008
+# [[education.courses]]
+#  course = "BS in Psychology"
+#  institution = "Louisiana State University Shreveport (LSUS)"
+#  year = 2008
 
 # Social/Academic Networking
 #
