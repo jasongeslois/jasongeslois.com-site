@@ -6,7 +6,7 @@ name = "Jason Geslois"
 superuser = true
 
 # Role/position
-role = "MAS, MPH, MCHES"
+role = "MPH, MAS, EMBA"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -22,13 +22,19 @@ avatar = "Jason pic.jpg"
 # List (academic) interests or hobbies
 interests = [
   "Epidemiology",
-  "Infection Prevention",
+  "Population Health",
   "Data Science",
-  "GIS & Spatial Analysis",
+  "Geospatial Analysis",
   "R Programming"
 ]
 
 # List qualifications (such as academic degrees)
+
+[[education.courses]]
+  course = "Executive MBA"
+  institution = "Quantic School of Business and Technology"
+  year = 2022
+
 [[education.courses]]
   course = "MAS in Spatial Analysis"
   institution = "Johns Hopkins Bloomberg School of Public Health"
