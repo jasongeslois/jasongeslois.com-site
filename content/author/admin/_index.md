@@ -13,7 +13,7 @@ role = "MPH, MAS, EMBA"
 organizations = [ { name = "Epidemiologist", url = "" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "I'm an epidemiologist with interests in infection prevention, data science, research, R programming, GIS, and spatial analysis."
+bio = "I'm an epidemiologist with interests in epidemiology, population health, data science, and health research."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = ""
@@ -24,7 +24,7 @@ interests = [
   "Epidemiology",
   "Population Health",
   "Data Science",
-  "Geospatial Analysis",
+  "Geospatial Mapping",
   "R Programming"
 ]
 
