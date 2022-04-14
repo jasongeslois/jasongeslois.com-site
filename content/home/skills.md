@@ -25,6 +25,11 @@ weight = 7
   icon = "bug"
   icon_pack = "fas"
   name = "Epidemiology"
+  
+  [[feature]]
+  icon = "files-medical"
+  icon_pack = "fas"
+  name = "Population Health"
 
 [[feature]]
   icon = "r-project"
@@ -35,15 +40,17 @@ weight = 7
   icon = "globe-africa"
   icon_pack = "fas"
   name = "ArcGIS & QGIS"
+  
+[[feature]]
+  icon = "chart-bar"
+  icon_pack = "fas"
+  name = "Tableau" 
 
 [[feature]]
   icon = "file-excel"
   icon_pack = "fas"
   name = "Excel" 
 
-[[feature]]
-  icon = "chart-bar"
-  icon_pack = "fas"
-  name = "Tableau" 
+
 
 +++
