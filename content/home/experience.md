@@ -27,9 +27,9 @@ date_format = "January 2006"
   date_start = "2021-08-23"
   date_end = ""
   description = """
-  Responsibilities Include:
+  Area of Work:
   
-  * Data Analysis on Immunizations and Vaccines
+  * Data Analysis on Vaccinations
   """
 
 [[experience]]
@@ -40,7 +40,7 @@ date_format = "January 2006"
   date_start = "2016-03-07"
   date_end = "2021-08-13"
   description = """
-  Responsibilities Include:
+  Area of Work:
   
   * Disease Surveillance & Data Analysis
   * Infection Control & Prevention
@@ -55,7 +55,7 @@ date_format = "January 2006"
   date_start = "2010-12-01"
   date_end = "2014-08-31"
   description = """
-  Responsibilities Included:
+  Area of Work:
   
   * Volunteer Management 
   * Research & Data Analysis for Grants
@@ -70,7 +70,7 @@ date_format = "January 2006"
   date_start = "2012-08-01"
   date_end = "2013-12-31"
   description = """
-  Responsibilities Included: 
+  Area of Work: 
   
   * Instructed in-person and 100% online undergraduate Epidemiology courses.
   """
