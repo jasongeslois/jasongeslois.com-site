@@ -27,7 +27,7 @@ weight = 7
   name = "Epidemiology"
   
   [[feature]]
-  icon = "files-medical"
+  icon = "fa-solid fa-briefcase-medical"
   icon_pack = "fas"
   name = "Population Health"
 
