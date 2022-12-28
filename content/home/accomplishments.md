@@ -27,13 +27,5 @@ date_format = "Jan 2006"
   date_end = ""
   description = ""
 
-[[item]]
-  title = "Master Certified Health Education Specialist (MCHES)"
-  organization = "NCHEC"
-  certificate_url = "https://www.nchec.org"
-  date_start = "2017-04-01"
-  date_end = ""
-  description = ""
-  
 
 +++
