@@ -2,6 +2,7 @@
 title = "Using Tableau for Disease Data"
 author = "Jason Geslois"
 date = "2019-07-31"
+active = false
 +++
 
 Tableau is just another tool that can be used in an epidemiologist's toolbox to help model, predict, and display disease data. Below are just a few things I have tried and find that they may be useful to someone else in their projects or career. 
