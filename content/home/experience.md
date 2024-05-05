@@ -20,59 +20,17 @@ date_format = "January 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
-  title = "Advanced Epidemiologist"
-  company = "Kansas Department of Health & Environment"
+  title = "Job Title"
+  company = "Company Name"
   company_url = ""
-  location = "Kansas"
-  date_start = "2021-08-23"
+  location = "Name"
+  date_start = "2000-01-01"
   date_end = ""
   description = """
   Area of Work:
   
-  * Data Analysis on Vaccinations
-  """
-
-[[experience]]
-  title = "Epidemiologist"
-  company = "Northeast Texas Public Health District (NET Health)"
-  company_url = ""
-  location = "Texas"
-  date_start = "2016-03-07"
-  date_end = "2021-08-13"
-  description = """
-  Area of Work:
-  
-  * Disease Surveillance & Data Analysis
-  * Infection Control & Prevention
-  * Outbreak Response & Preparedness Activities
-  """
-
-[[experience]]
-  title = "Special Projects Coordinator"
-  company = "MLK Health Center"
-  company_url = ""
-  location = "Louisiana"
-  date_start = "2010-12-01"
-  date_end = "2014-08-31"
-  description = """
-  Area of Work:
-  
-  * Volunteer Management 
-  * Research & Data Analysis for Grants
-  * Community Health Education & Outreach
-  """
-
-[[experience]]
-  title = "Adjunct Instructor-Epidemiology"
-  company = "Louisiana State University Shreveport"
-  company_url = ""
-  location = "Louisiana"
-  date_start = "2012-08-01"
-  date_end = "2013-12-31"
-  description = """
-  Area of Work: 
-  
-  * Instructed in-person and 100% online undergraduate Epidemiology courses.
+  * Short Detail or Description
+  * Short Detail or Description (duplicate experience box below for additional experiences)
   """
 
 +++
