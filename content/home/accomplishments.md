@@ -20,10 +20,10 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  title = "40 Under 40 Honoree"
-  organization = "Shreveport-Bossier Chamber of Commerce"
-  certificate_url = "https://www.shreveportchamber.org/40-under-40-gala.html"
-  date_start = "2014-12-01"
+  title = "title"
+  organization = "org name"
+  certificate_url = "link"
+  date_start = "2000-01-01"
   date_end = ""
   description = ""
 
