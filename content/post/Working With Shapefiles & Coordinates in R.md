@@ -3,6 +3,7 @@
 title = "Working With Shapefiles and Coordinates in R"
 author = "Jason Geslois, MAS, MPH, MCHES"
 date = "2019-09-02"
+active = false
 +++
 
 
