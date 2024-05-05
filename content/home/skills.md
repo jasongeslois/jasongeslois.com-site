@@ -39,7 +39,7 @@ weight = 7
 [[feature]]
   icon = "globe-africa"
   icon_pack = "fas"
-  name = "ArcGIS & QGIS"
+  name = "ArcGIS"
   
 [[feature]]
   icon = "chart-bar"
