@@ -87,4 +87,4 @@ interests = [
 
 +++
 
-Hello, and welcome to my little corner of the web. I am an epidemiologist by day and I enjoy solving problems, learning, and discovering all that our world has to offer. I have been involved in public health and the health space in different capacities since 2011. I am currently interested in using data science to solve health problems in areas such as natural language processing and predictive analytics. Check out the Posts tab at the top to see a few things I have worked on. Most posts are simple software uses or demonstrations of solving small problems that someone may find helpful. If you find it interesting, feel free to reach out and say hello.
+Hello, and welcome to my little corner of the web. I am an epidemiologist by day and I enjoy solving problems, learning, reading, and discovering all that our world has to offer. I have been involved in public health and the health space in different capacities since 2011. I am interested in using data science to solve health problems in areas such as natural language processing and predictive analytics. The site is currently undergoing construction. 
