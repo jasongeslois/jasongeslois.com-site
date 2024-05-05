@@ -1,9 +1,11 @@
-+++ 
-title = "Using Microsoft Excel Power Query to Clean and Sort Data during COVID-19" 
-author = "Jason Geslois" 
-date = "2020-08-02" 
-active = false
-+++
+# Currently unavailable. 
+
+# +++ 
+# title = "Using Microsoft Excel Power Query to Clean and Sort Data during COVID-19" 
+# author = "Jason Geslois" 
+# date = "2020-08-02" 
+# active = false
+# +++
 
 Not too long ago, I discovered a very useful tool that Microsoft created for Excel called Power Query. You can find and use it from under the Data tab within the ribbon at the top, and it can do quite a lot in terms of data wrangling and transformation for a variety of tasks. It has helped me tremendously in working and getting out variations of different data for different groups of people during the COVID-19 pandemic. 
 In this post, I wanted to share a few helpful tools that have not only been useful to me, but also might be helpful to other health departments working with data in Excel for daily case counts. I am working this example on a fake disease dataset that I created, where each row can be conceptualized as one individual entry of disease count by day (ex. John Smith, Positive for COVID) and each column is a different feature that describes it (ex. GENDER, AGE, RESIDENCE) etc. 
